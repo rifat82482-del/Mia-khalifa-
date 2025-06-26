@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Hinata.hn CI
 
 on:
   workflow_dispatch:
@@ -24,3 +24,4 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm start
+    
